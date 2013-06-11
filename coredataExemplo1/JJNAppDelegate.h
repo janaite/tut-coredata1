@@ -11,7 +11,7 @@
 
 @interface JJNAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) JJNViewController *viewController;    // JJN
+@property (strong, nonatomic) UIViewController *viewController;    // JJN
 @property (strong, nonatomic) UIWindow *window;
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;

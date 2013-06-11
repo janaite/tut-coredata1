@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JJNAppDelegate.h"  // JJN
 
 @interface JJNViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *txtName;
+@property (weak, nonatomic) IBOutlet UITextField *txtAddress;
+@property (weak, nonatomic) IBOutlet UITextField *txtPhone;
+@property (weak, nonatomic) IBOutlet UILabel *txtStatus;
+
+- (IBAction)btSave:(id)sender;
+- (IBAction)btFind:(id)sender;
 
 @end
