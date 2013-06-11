@@ -18,6 +18,8 @@
 		1CE286611767D22C00C062EF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE286601767D22C00C062EF /* Default@2x.png */; };
 		1CE286631767D22C00C062EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE286621767D22C00C062EF /* Default-568h@2x.png */; };
 		1CE286661767D22C00C062EF /* coredataExemplo1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CE286641767D22C00C062EF /* coredataExemplo1.xcdatamodeld */; };
+		1CE2866F1767D2E700C062EF /* JJNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2866D1767D2E700C062EF /* JJNViewController.m */; };
+		1CE286701767D2E700C062EF /* JJNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE2866E1767D2E700C062EF /* JJNViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		1CE286601767D22C00C062EF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1CE286621767D22C00C062EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1CE286651767D22C00C062EF /* coredataExemplo1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coredataExemplo1.xcdatamodel; sourceTree = "<group>"; };
+		1CE2866C1767D2E700C062EF /* JJNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNViewController.h; sourceTree = "<group>"; };
+		1CE2866D1767D2E700C062EF /* JJNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNViewController.m; sourceTree = "<group>"; };
+		1CE2866E1767D2E700C062EF /* JJNViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJNViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				1CE2865C1767D22C00C062EF /* JJNAppDelegate.m */,
 				1CE286641767D22C00C062EF /* coredataExemplo1.xcdatamodeld */,
 				1CE286531767D22C00C062EF /* Supporting Files */,
+				1CE2866C1767D2E700C062EF /* JJNViewController.h */,
+				1CE2866D1767D2E700C062EF /* JJNViewController.m */,
+				1CE2866E1767D2E700C062EF /* JJNViewController.xib */,
 			);
 			path = coredataExemplo1;
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 				1CE2865F1767D22C00C062EF /* Default.png in Resources */,
 				1CE286611767D22C00C062EF /* Default@2x.png in Resources */,
 				1CE286631767D22C00C062EF /* Default-568h@2x.png in Resources */,
+				1CE286701767D2E700C062EF /* JJNViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +184,7 @@
 				1CE286591767D22C00C062EF /* main.m in Sources */,
 				1CE2865D1767D22C00C062EF /* JJNAppDelegate.m in Sources */,
 				1CE286661767D22C00C062EF /* coredataExemplo1.xcdatamodeld in Sources */,
+				1CE2866F1767D2E700C062EF /* JJNViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

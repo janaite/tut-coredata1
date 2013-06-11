@@ -17,7 +17,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
     // Override point for customization after application launch.
+    _viewController = [[JJNViewController alloc] initWithNibName:@"JJNViewController" bundle:nil];  // JJN
+    [self.window setRootViewController: _viewController];   // JJN
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
